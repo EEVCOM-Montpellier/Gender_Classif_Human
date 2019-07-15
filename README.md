@@ -5,16 +5,16 @@ The objective of this tool is to predict femininity of Human Faces based on the 
 
 ## Theory
 For the classification task, we use transfer learning method (architecture VGGFace) on a learning set.
-![30% center](/img/meth1.png)
+![Illustration](/img/meth1.png)
 
 We predict the femininity on a testing set.
-![30% center](/img/meth2.png)
+![Illustration](/img/meth2.png)
 
 The task is repeated for each image of the dataset. (597 times)
 
 ## Requirements
 
-* Install directly all requirements here (in your env ; ex py35):
+* Install directly all requirements here (in your env):
 
 ```
 pip install -r requirements.txt
