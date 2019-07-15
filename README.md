@@ -5,10 +5,10 @@ The objective of this tool is to predict femininity of Human Faces based on the 
 
 ## Theory
 For the classification task, we use transfer learning method (architecture VGGFace) on a learning set.
-![30% center](img/meth1.png)
+![30% center](/img/meth1.png)
 
 We predict the femininity on a testing set.
-![30% center](img/meth2.png)
+![30% center](/img/meth2.png)
 
 The task is repeated for each image of the dataset. (597 times)
 
@@ -26,11 +26,11 @@ https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-i
 
 
 * If using PC ES10SA3
-  1. Using GPU
+1. Using GPU
 ```
 activate tf_gpu
 ```
-  2. Using GPU
+2. Using GPU
 ```
 activate tf_cpu
 ```
