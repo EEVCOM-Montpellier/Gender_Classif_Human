@@ -5,10 +5,10 @@ The objective of this tool is to predict femininity of Human Faces based on the 
 
 ## Theory
 For the classification task, we use transfer learning method (architecture VGGFace) on a learning set.
-![Illustration](/img/meth1.png)
+![Illustration](https://github.com/EEVCOM-Montpellier/Gender_Classif_Human/blob/master/img/meth1.PNG)
 
 We predict the femininity on a testing set.
-![Illustration](/img/meth2.png)
+![Illustration](https://github.com/EEVCOM-Montpellier/Gender_Classif_Human/blob/master/img/meth2.PNG)
 
 The task is repeated for each image of the dataset. (597 times)
 
